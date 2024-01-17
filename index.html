@@ -20,10 +20,55 @@
         <header class="mb-3">
             <section class="logo container h-100 d-flex align-items-center">
                 <img src="./img/spotify-logo.png" alt="Spotify logo">
+                <h1 class="ms-3 fs-3 text-uppercase">Brani preferiti</h1>
             </section>
         </header>
         <main>
-
+            <!-- chiamata api con lista di cose -->
+            <div class="container my_bg_red">
+                <div class="row justify-content-center">
+                    <div class="card col-2 album-element mx-5 mb-5" v-for="(element, index) in albumList" :key="index" data-bs-toggle="modal" :data-bs-target="'#album-modal-' + index">
+                        <img :src="element.cover" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <b>
+                                    {{ element.title }}
+                                </b>
+                            </p>
+                            <p class="card-text">
+                                {{ element.artist }}
+                            </p>
+                            <p class="card-text">
+                                {{ element.releaseYear }}
+                            </p>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" :id="'album-modal-' + index"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <!-- Vertically centered modal -->
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img :src="element.cover" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <b>
+                                                {{ element.title }}
+                                            </b>
+                                        </p>
+                                        <p class="card-text">
+                                            {{ element.artist }}
+                                        </p>
+                                        <p class="card-text">
+                                            {{ element.releaseYear }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
     </div>
     <!-- Link js Bootstrap-->

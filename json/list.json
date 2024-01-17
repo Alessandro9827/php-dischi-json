@@ -1,0 +1,58 @@
+[
+    {
+        "artist": "Guè",
+        "title": "Brivido",
+        "releaseYear": "2013",
+        "genre": "Rap",
+        "cover" : "https://m.media-amazon.com/images/I/716e7pga-sL._AC_SX679_.jpg"
+    },
+    {
+        "artist": "Metro Boomin, Chris Brown, Future",
+        "title": "Superhero (Heroes & Villains)",
+        "releaseYear": "2022",
+        "genre": "Rap",
+        "cover" : "https://upload.wikimedia.org/wikipedia/en/5/5f/Metro_Boomin_-_Heroes_%26_Villains.png"
+    },
+    {
+        "artist": "Mina",
+        "title": "Mi sei scoppiato dentro il cuore",
+        "releaseYear": "1966",
+        "genre": "Pop",
+        "cover" : "https://m.media-amazon.com/images/I/51iUvbytmzL._UX716_FMwebp_QL85_.jpg"
+    },
+    {
+        "artist": "Lazza",
+        "title": "Morto Mai (Piano Solo)",
+        "releaseYear": "2019",
+        "genre": "Rap",
+        "cover" : "https://m.media-amazon.com/images/I/41b7LgHKskL._UX716_FMwebp_QL85_.jpg"
+    },
+    {
+        "artist": "Tory Lanez",
+        "title": "The Color Violet",
+        "releaseYear": "2021",
+        "genre": "R&B/soul",
+        "cover" : "https://m.media-amazon.com/images/I/411cGeS8boL._UX716_FMwebp_QL85_.jpg"
+    },
+    {
+        "artist": "The Weeknd",
+        "title": "Call Out My Name",
+        "releaseYear": "2018",
+        "genre": "R&B/soul",
+        "cover" : "https://m.media-amazon.com/images/I/51Ee-1o2JkL._UX716_FMwebp_QL85_.jpg"
+    },
+    {
+        "artist": "Nu Genea",
+        "title": "Tienaté",
+        "releaseYear": "2022",
+        "genre": "Lebanese Pop",
+        "cover" : "https://m.media-amazon.com/images/I/51hLRrXAEcL._AC_.jpg"
+    },
+    {
+        "artist": "Peggy Gou",
+        "title": "Starry Night",
+        "releaseYear": "2019",
+        "genre": "Dance/elettronica",
+        "cover" : "https://m.media-amazon.com/images/I/51Rx4YUJbOL._UX716_FMwebp_QL85_.jpg"
+    }
+]

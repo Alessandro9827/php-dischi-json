@@ -11,3 +11,25 @@ header {
 header img {
     height: 27.25px;
 }
+
+div.album-element {
+    background-color: #112030;
+    color: white;
+    text-align: center;
+}
+
+div.album-element .card-body>p {
+    margin-bottom: .33rem;
+    font-size: .8rem;
+}
+
+div.modal.fade .modal-content {
+    background-color: #152434;
+}
+
+div.modal.fade .modal-content img {
+    background-color: #152434;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}

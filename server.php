@@ -5,4 +5,6 @@
 //Solo a questo punto sarà utile passare alla lettura della lista da un file JSON che potete creare liberamente con almeno 6 album musicali.
 //Bonus: Al click su un disco, recuperare e mostrare i dati del disco selezionato.
 
-?>
+$stringList = file_get_contents('./json/list.json');
+header('Content-Type: application/json');
+echo $stringList;
